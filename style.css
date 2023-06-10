@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html, body, figure, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    background-color: rgb(247, 178, 189);
+    height: 80px;
+}
+
+body {
+    background-color: solid rgba(0, 0, 0, 0.464);
+    line-height: 1;
+}
+
+section {
+    background-color: rgb(126, 80, 169);
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid rgb(65, 206, 246);
+    background-color: solid rgb(69, 197, 230);
+
+}
+
+input, textarea {
+    width: 325px;
+    height: 35px;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(225, 105, 175);
+    color:aliceblue
+}
+
+main {
+    font-size: 43px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+footer{
+    font-size: 45px;
+    background-color:rgb(247, 178, 189);
+    
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.item {
+    margin: 5px;
+}
+ @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+        flex: 100%
+    }
+ }
+
