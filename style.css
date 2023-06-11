@@ -76,9 +76,6 @@ footer{
     justify-content: space-evenly;
 }
 
-.item {
-    margin: 5px;
-}
  @media (max-width: 800px) {
     .flex-item-right, .flex-item-left {
         flex: 100%
